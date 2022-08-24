@@ -22,6 +22,7 @@ int main(void)
 	ppid = getppid();
 
 	printf("Sum = %d\nPID = %u\nPPID = %u\n", sum, pid, ppid);
+	printf("Hello, World\n");
 	return (0);
 }
 
